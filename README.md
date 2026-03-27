@@ -1,8 +1,8 @@
-income = int(input("Enter your monthly income in dollars: "))
-rent = int(input("Enter your rent in dollars: "))
-food = int(input("Enter your food expenses: "))
-transport = int(input("Enter your transport expenses: "))
-other = int(input("Enter your other expenses: "))
+income = int(input("Enter your monthly income in dollars: ")
+rent = int(input("Enter your rent in dollars: ")
+food = int(input("Enter your food expenses: ")
+transport = int(input("Enter your transport expenses: ")
+other = int(input("Enter your other expenses: ")
 
 total_expenses = rent + food + transport + other
 balance = income - total_expenses
