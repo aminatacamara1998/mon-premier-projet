@@ -7,7 +7,7 @@ other = int(input("Enter your other expenses: ")
 total_expenses = rent + food + transport + other
 balance = income - total_expenses
 
-print("\n------ BUDGET SUMMARY ------")
+print("\n----- BUDGET SUMMARY -----")
 print("Income:", income)
 print("Total expenses:", total_expenses)
 print("Remaining balance:", balance)
